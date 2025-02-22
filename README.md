@@ -1,13 +1,19 @@
-# Atividade:
+# Criando uma branch.
 
-Crie uma branch com o nome: feature/projeto-senai
+git checkout -b heranca
 
-Crie um arquivo com o nome: ProjetoSenai
+Apague "todos" os arquivos, deixe apenas README.md
 
-Faça um sout inserindo seu nome
+git add .
 
-Versione as alterações
+git commit -m "Estrutura"
 
-Junte todas as alterações da branch feature/projeto-senai na branch principal
+-- 
 
-Apague a branch feature/projeto-senai
+Veja a diferença entre ambientes.
+Veja a diferença entre ambientes.
+- Possui arquivos das aulas anteriores
+git checkout main
+
+- Não possui arquivos das aulas anteriores
+git checkout heranca
